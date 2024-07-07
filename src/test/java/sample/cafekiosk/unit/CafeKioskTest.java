@@ -75,6 +75,8 @@ class CafeKioskTest {
 		assertThat(cafeKiosk.getBeverages()).isEmpty();
 	}
 
+
+
 	@Test
 	void createOrder() {
 		CafeKiosk cafeKiosk = new CafeKiosk();
